@@ -1,3 +1,15 @@
 #center{
     text-align: center;
 }
+a{
+    color: cornflowerblue;
+}
+a:hover{
+    color:blue;
+}
+a:active{
+    color:cadetblue;
+}
+a:visited{
+    color:cornflowerblue;
+}
