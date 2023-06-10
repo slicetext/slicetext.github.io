@@ -21,6 +21,10 @@ h1{
     color: whitesmoke;
     font-family: 'Roboto Mono', monospace;
 }
+h2{
+    color: rgb(224, 221, 221);
+    font-family: 'Roboto Mono', monospace;
+}
 p{
     color: rgb(148, 147, 147);
     font-family: 'Roboto Mono', monospace;
