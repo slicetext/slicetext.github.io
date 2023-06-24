@@ -41,3 +41,7 @@ p{
     display: table;
     clear: both;
 }
+code{
+    background-color:rgb(78, 78, 78);
+    color: black;
+}
