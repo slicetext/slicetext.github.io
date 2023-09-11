@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" href="./style.css">
+        </style>
+    </head>
+    <body>
+        <div id="tcenter">
+            <h1>Hello, Owner</h1>
+            <div id="center">
+                <form action="https://ecosia.org/search" target="_blank" method="get">
+                    <input type="text" id="search" name="q" placeholder="Search...">
+                    <input type="submit" value="Go!">
+                </form>
+            </div>
+        </div>
+        <script>
+            window.onload = function() {
+                document.getElementById("search").focus();
+            }
+        </script>
+    </body>
+</html>
