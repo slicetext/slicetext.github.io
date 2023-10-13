@@ -1,12 +1,12 @@
 *{
-    background-color: rgb(54, 54, 54);
+    background-color: #2e3440;
     font-family: MapleMono;
 }
 h2{
-    color: whitesmoke;
+    color: #d8dee9
 }
 h1{
-    color: whitesmoke;
+    color: #d8dee9
 }
 #center{
     position:absolute;
@@ -15,7 +15,7 @@ h1{
     transform: translate(-50%,-50%);
 }
 input{
-    color: whitesmoke;
+    color: #81a1c1;
 }
 #tcenter{
     text-align: center;
