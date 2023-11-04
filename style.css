@@ -14,12 +14,17 @@ a:active{
 a:visited{
     color:cornflowerblue;
 }
-body{
+.section{
     background-color: rgb(27, 25, 25);
+	padding: 5px 5px 5px 5px;
+	border-radius: 10px;
 }
 h1{
     color: whitesmoke;
     font-family: 'Roboto Mono', monospace;
+}
+.intro{
+	font-size: 5vw;
 }
 h2{
     color: rgb(224, 221, 221);
@@ -44,4 +49,7 @@ p{
 code{
     background-color:rgb(78, 78, 78);
     color: black;
+}
+html{
+	background-color: gray;
 }
