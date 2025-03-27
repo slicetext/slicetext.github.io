@@ -1,8 +1,22 @@
+:root {
+    --hl1-normal: #FED766;
+    --hl1-light:  #FEE59A;
+    --hl2-normal: #009FB7;
+    --nav-hl:     #141414;
+    --nav-fg:     #ffffff;
+    --bg-normal:  #272727;
+    --bg-light:   #363636;
+    --fg-normal:  #feffef;
+    --fg-dark:    #CFCCD6;
+    --transparent:#00000000;
+}
+
+
 #center{
     text-align: center;
 }
 a{
-    color: #F2542D;
+    color: var(--hl1-normal);
     font-family: 'Roboto Mono', monospace;
     text-decoration: none;
     padding-left: 5px;
@@ -10,17 +24,17 @@ a{
     border-radius: 5px;
 }
 a:hover{
-    background-color: #F2542D;
+    background-color: var(--hl1-normal);
     color:black;
 }
 a:active{
-    background-color: #F2542D;
+    background-color: var(--hl1-normal);
 }
 a:visited{
-    color:#F2542D;
+    color: var(--hl1-normal);
 }
 #navlink{
-    color: #000000;
+    color: var(--nav-hl);
     font-family: 'Roboto Mono', monospace;
     font-weight: bold;
     text-decoration: none;
@@ -29,30 +43,23 @@ a:visited{
     vertical-align:middle;
 }
 #navlink:hover{
-    background-color: #000000;
-    color: #fff;
+    background-color: var(--nav-hl);
+    color: var(--nav-fg);
 }
 #navlink:active{
-    background-color: #000000;
-    color: #fff;
+    background-color: var(--nav-hl);
+    color: var(--nav-fg);
 }
 #navlink:visited{
-    color:#000000;
+    color: var(--nav-hl);
 }
 #navbar{
     display:inline;
     align-items:center;
     vertical-align:middle;
 }
-.section{
-    background-color: #080C08;
-	padding: 5px 5px 5px 5px;
-    margin-left: 20px;
-    margin-right: 20px;
-	border-radius: 10px;
-}
 h1{
-    color: whitesmoke;
+    color: var(--fg-normal);
     font-family: 'Roboto Mono', monospace;
     font-size: 10vh;
 }
@@ -60,12 +67,12 @@ h1{
 	font-size: 5vw;
 }
 h2{
-    color: rgb(224, 221, 221);
+    color: var(--fg-normal);
     font-family: 'Roboto Mono', monospace;
     font-size: 7vh;
 }
 p{
-    color: rgb(148, 147, 147);
+    color: var(--fg-dark);
     font-family: 'Roboto Mono', monospace;
     font-size: 3vh;
 }
@@ -81,12 +88,8 @@ p{
     display: table;
     clear: both;
 }
-code{
-    background-color:rgb(78, 78, 78);
-    color: black;
-}
 html{
-	background-color: #0C120C;
+	background-color: var(--bg-normal);
 }
 #logo{
     width: 7vh;
@@ -94,16 +97,16 @@ html{
     vertical-align:middle;
 }
 #logo:hover{
-    background-color: #00000000;
+    background-color: var(--transparent);
 }
 #navbar{
-    background-color: #519E8A;
+    background-color: var(--hl2-normal);
     position: fixed;
     width:100%;
     top: 0px;
 }
 #project{
-    background-color: #363636;
+    background-color: var(--bg-light);
     border-radius: 10px;
     width: 28vw;
     height: 16vh;
@@ -121,7 +124,7 @@ html{
     border-radius: 0px;
 }
 #proj-title-link:hover{
-    background-color: #00000000;
+    background-color: var(--transparent);
     text-decoration: underline;
     text-decoration-color: white;
 }
@@ -130,13 +133,13 @@ html{
 }
 #button{
     color: black;
-    background-color: #F2542D;
+    background-color: var(--hl1-normal);
     text-decoration: none;
     padding: 7px;
     border-radius: 7px;
     font-size: 3vh;
 }
 #button:hover{
-    background-color: #F47352;
+    background-color: var(--hl1-light);
     color:black;
 }
